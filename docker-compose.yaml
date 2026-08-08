@@ -4,13 +4,13 @@ services:
     build: ./frontend
     container_name: frontend
     ports:
-      - "3003:3000"
+      - "3003:3003"
 
   backend:
     build: ./backend
     container_name: backend
     ports:
-      - "8003:8000"
+      - "8003:8003"
 
   postgres:
     image: postgres:17
