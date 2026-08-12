@@ -1,20 +1,46 @@
 @import "tailwindcss";
 
 @theme {
-  /* custom color Dark Overlay */
+/* ============================================================
+FONT FAMILY
+============================================================ */
+
+  --font-dm-sans: var(--font-family-dm-sans);
+  --font-inter: var(--font-family-inter);
+
+/* ============================================================
+FONT WEIGHT
+============================================================ */
+
+  --font-weight-thin: 100;
+  --font-weight-extra-light: 200;
+  --font-weight-light: 300;
+  --font-weight-regular: 400;
+  --font-weight-medium: 500;
+  --font-weight-semibold: 600;
+  --font-weight-bold: 700;
+  --font-weight-extra-bold: 800;
+  --font-weight-black: 900;
+
+/* ============================================================
+DARK OVERLAY
+============================================================ */
   --color-BC-DO05: #FFFFFF0D;
   --color-BC-DO10: #FFFFFF1A;
   --color-BC-DO20: #FFFFFF33;
-  --color-BC-DO30: #FFFFFF0D;
+  --color-BC-DO30: #FFFFFF4D;
   --color-BC-DO40: #FFFFFF66;
   --color-BC-DO50: #FFFFFF80 ;
   --color-BC-DO60: #FFFFFF99;
   --color-BC-DO70: #FFFFFFB3;
   --color-BC-DO80: #FFFFFFCC;
   --color-BC-DO90: #FFFFFFE6;
+
   --color-white: #FFFFFF;
 
-  /* custom color Light Overlay */
+/* ============================================================
+LIGHT OVERLAY
+============================================================ */
   --color-BC-LO05: #0B411D0D;
   --color-BC-LO10: #0B411D1A;
   --color-BC-LO20: #125B2033;
@@ -27,7 +53,9 @@
   --color-BC-LO90: #13301DE6;
   --color-Dark: #05190B;
 
-  /* custom color Neutral */
+/* ============================================================
+NEUTRAL
+============================================================ */
   --color-BC-N0-light : #FFFFFF;
   --color-BC-N0-dark : #0D0E0C;
   --color-BC-N100-light : #EFF0EF;
@@ -50,7 +78,9 @@
   --color-BC-N1000-light : #141513;
   --color-BC-N1000-dark : #E0E3DD;
 
-  /* custom color Neutral Alpha */
+/* ============================================================
+NEUTRAL ALPHA
+============================================================ */
   --color-BC-NA02-light : #FFFFFF05;
   --color-BC-NA02-dark : #1A203405;
   --color-BC-NA05-light : #FFFFFF0D;
@@ -74,7 +104,10 @@
   --color-BC-NA90-light : #FFFFFFE6;
   --color-BC-NA90-dark : #1A2034E6;
 
-  /* custom color Neutral Alpha Invert */
+/* ============================================================
+NEUTRAL ALPHA INVERT
+============================================================ */
+
   --color-BC-NI02-light : #1B271705;
   --color-BC-NI02-dark : #C4F5B305;
   --color-BC-NI05-light : #1B27170D;
@@ -98,7 +131,10 @@
   --color-BC-NI90-light : #1B2717E6;
   --color-BC-NI90-dark : #C4F5B3E6;
 
-  /* custom color Primary */
+/* ============================================================
+PRIMARY
+============================================================ */
+
   --color-BC-PR-Hero-light : #3A7326;
   --color-BC-PR-Hero-dark : #2E5C1E;
   --color-BC-PR100-light : #E9F6E4;
@@ -122,7 +158,10 @@
   --color-BC-PR1000-dark : #D3EDC9;
   --color-BC-PR1000-light : #0C1708;
 
-  /* custom color Primary Alpha */
+/* ============================================================
+PRIMARY ALPHA
+============================================================ */
+
   --color-BC-PRA05-light : #3A73260D;
   --color-BC-PRA05-dark : #6CB8510D;
   --color-BC-PRA10-light : #3A73261A;
@@ -144,7 +183,10 @@
   --color-BC-PRA90-light : #3A7326E6;
   --color-BC-PRA90-dark : #6CB851E6;
 
-  /* custom color Red */
+/* ============================================================
+RED
+============================================================ */
+
   --color-BC-RE100-light: #FEEBEB;
   --color-BC-RE100-dark: #190606;
   --color-BC-RE200-light: #FDD7D7;
@@ -165,139 +207,481 @@
   --color-BC-RE900-dark: #FBAFAF;
   --color-BC-RE1000-light: #420F0F;
   --color-BC-RE1000-dark: #FCCACA;
-  /* custom color DO 05*/
-  --color-DO05 : #FFFFFF0D;
 
-  /* custom font weight */
-  --font-weight-thin: 100;
-  --font-weight-extra_light: 200;
-  --font-weight-light: 300;
-  --font-weight-regular: 400;
-  --font-weight-medium: 500;
-  --font-weight-semibold: 600;
-  --font-weight-bold: 700;
-  --font-weight-extra_bold: 800;
-  --font-weight-black: 900;
+/* ============================================================
+   OTHER
+============================================================ */
 
-  /* custom FONT FAMILIES*/
+  --color-DO05: #FFFFFF0D;
 
-  --font-dm-sans: "DM Sans", ui-sans-serif, system-ui, sans-serif;
-  --font-inter: "Inter", ui-sans-serif, system-ui, sans-serif;
+/* ============================================================
+STATIC TYPOGRAPHY TOKENS
+============================================================ */
 
-  /* text for DISPLAY */
+  --text-xs: 12px;
+  --text-xs--line-height: 140%;
 
-  --text-display-1: 88px;
-  --text-display-1--line-height: 108%;
-  --text-display-1--font-weight: 700;
-  --text-display-1--font-family: var(--font-dm-sans);
+  --text-sm: 14px;
+  --text-sm--line-height: 140%;
 
-  --text-display-2: 61px;
-  --text-display-2--line-height: 112%;
-  --text-display-2--font-weight: 700;
-  --text-display-2--font-family: var(--font-dm-sans);
+  --text-base: 16px;
+  --text-base--line-height: 160%;
+
+  --text-md: 20px;
+  --text-md--line-height: 158%;
+
+  --text-lg: 24px;
+  --text-lg--line-height: 160%;
 
 
-  /* text for HEADINGS */
-
-  --text-h1: 48px;
-  --text-h1--line-height: 116%;
-  --text-h1--font-weight: 700;
-  --text-h1--font-family: var(--font-dm-sans);
-
-  --text-h2: 39px;
-  --text-h2--line-height: 116%;
-  --text-h2--font-weight: 700;
-  --text-h2--font-family: var(--font-dm-sans);
-
-  --text-h3: 31px;
-  --text-h3--line-height: 128%;
-  --text-h3--font-weight: 700;
-  --text-h3--font-family: var(--font-dm-sans);
-
-  --text-h4: 25px;
-  --text-h4--line-height: 120%;
-  --text-h4--font-weight: 700;
-  --text-h4--font-family: var(--font-dm-sans);
-
-  --text-h5: 20px;
-  --text-h5--line-height: 142%;
-  --text-h5--font-weight: 700;
-  --text-h5--font-family: var(--font-dm-sans);
-
-  --text-h6: 16px;
-  --text-h6--line-height: 120%;
-  --text-h6--font-weight: 700;
-  --text-h6--font-family: var(--font-dm-sans);
-
-  /* text for BODY */
-  --text-xs-body: 12px;
-  --text-xs-body--line-height: 140%;
-  --text-xs-body--font-weight: 400;
-  --text-xs-body--font-family: var(--font-inter);
-
-  --text-sm-body: 14px;
-  --text-sm-body--line-height: 140%;
-  --text-sm-body--font-weight: 400;
-  --text-sm-body--font-family: var(--font-inter);
-
-  --text-body: 16px;
-  --text-body--line-height: 160%;
-  --text-body--font-weight: 400;
-  --text-body--font-family: var(--font-inter);
-
-  --text-md-body: 20px;
-  --text-md-body--line-height: 158%;
-  --text-md-body--font-weight: 400;
-  --text-md-body--font-family: var(--font-inter);
-
-  --text-lg-body: 24px;
-  --text-lg-body--line-height: 160%;
-  --text-lg-body--font-weight: 400;
-  --text-lg-body--font-family: var(--font-inter);
-
-  /* text for BUTTONS */
+/* ============================================================
+BUTTON TYPOGRAPHY
+============================================================ */
 
   --text-button-sm: 14px;
   --text-button-sm--line-height: 126%;
-  --text-button-sm--font-family: var(--font-dm-sans);
 
   --text-button-base: 16px;
   --text-button-base--line-height: 122%;
-  --text-button-base--font-family: var(--font-dm-sans);
 
   --text-button-lg: 20px;
   --text-button-lg--line-height: 122%;
-  --text-button-lg--font-family: var(--font-dm-sans);
 
 
-  /* text UPPERCASE */
-
+/* ============================================================
+UPPERCASE
+============================================================ */
 
   --text-uppercase: 16px;
   --text-uppercase--line-height: 132%;
-  --text-uppercase--font-weight: 500;
-  --text-uppercase--font-family: var(--font-dm-sans);
 }
+
+/* =================================================================
+RESPONSIVE TYPOGRAPHY VARIABLES
+
+Mobile first.
+Desktop starts at 768px.
+================================================================= */
+
+:root {
+  /* ---------------------------------------------------------------
+     DISPLAY
+     --------------------------------------------------------------- */
+
+  --typo-display-1-size: 70px;
+  --typo-display-1-line-height: 108%;
+  --typo-display-1-weight: 700;
+
+  --typo-display-2-size: 49px;
+  --typo-display-2-line-height: 112%;
+  --typo-display-2-weight: 700;
+
+
+  /* ---------------------------------------------------------------
+     HEADINGS
+     --------------------------------------------------------------- */
+
+  --typo-h1-size: 38px;
+  --typo-h1-line-height: 116%;
+  --typo-h1-weight: 700;
+
+  --typo-h2-size: 31px;
+  --typo-h2-line-height: 116%;
+
+  --typo-h3-size: 28px;
+  --typo-h3-line-height: 128%;
+
+  --typo-h4-size: 25px;
+  --typo-h4-line-height: 120%;
+
+  --typo-h5-size: 20px;
+  --typo-h5-line-height: 142%;
+
+  --typo-h6-size: 16px;
+  --typo-h6-line-height: 142%;
+}
+
+/* =================================================================
+DESKTOP TYPOGRAPHY
+================================================================= */
+
+@media (min-width: 768px) {
+  :root {
+    --typo-display-1-size: 88px;
+    --typo-display-2-size: 61px;
+
+    --typo-h1-size: 48px;
+    --typo-h2-size: 39px;
+    --typo-h3-size: 31px;
+
+    --typo-h6-line-height: 120%;
+  }
+}
+
+/* =================================================================
+BASE
+================================================================= */
 
 @layer base {
   html {
     font-family: var(--font-dm-sans);
+    scroll-behavior: smooth;
   }
-  body{
-    font-family: var(--font-dm-sans);
+
+  body {
+    margin: 0;
+
+    font-family: var(--font-inter);
     font-size: 16px;
     line-height: 160%;
+
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+
+    text-rendering: optimizeLegibility;
   }
+
+  *,
+  *::before,
+  *::after {
+    box-sizing: border-box;
+  }
+
   h1,
   h2,
   h3,
   h4,
   h5,
   h6 {
+    margin: 0;
+    padding: 0;
+
     font-family: var(--font-dm-sans);
   }
 
+  p {
+    margin: 0;
+  }
+
+  button,
+  input,
+  textarea,
+  select {
+    font: inherit;
+  }
+
   button {
+    cursor: pointer;
+  }
+
+  img,
+  svg,
+  video {
+    display: block;
+    max-width: 100%;
+  }
+}
+
+/* =================================================================
+TYPOGRAPHY COMPONENTS
+================================================================= */
+
+@layer components {
+
+  /* ===============================================================
+     DISPLAY
+     =============================================================== */
+
+  .typo-display-1-bold {
     font-family: var(--font-dm-sans);
+    font-size: var(--typo-display-1-size);
+    line-height: var(--typo-display-1-line-height);
+    font-weight: 700;
+  }
+
+  .typo-display-2-bold {
+    font-family: var(--font-dm-sans);
+    font-size: var(--typo-display-2-size);
+    line-height: var(--typo-display-2-line-height);
+    font-weight: 700;
+  }
+
+
+  /* ===============================================================
+     H1
+     =============================================================== */
+
+  .typo-h1-bold {
+    font-family: var(--font-dm-sans);
+    font-size: var(--typo-h1-size);
+    line-height: var(--typo-h1-line-height);
+    font-weight: 700;
+  }
+
+
+  /* ===============================================================
+     H2
+     =============================================================== */
+
+  .typo-h2-bold {
+    font-family: var(--font-dm-sans);
+    font-size: var(--typo-h2-size);
+    line-height: var(--typo-h2-line-height);
+    font-weight: 700;
+  }
+
+  .typo-h2-medium {
+    font-family: var(--font-dm-sans);
+    font-size: var(--typo-h2-size);
+    line-height: var(--typo-h2-line-height);
+    font-weight: 500;
+  }
+
+
+  /* ===============================================================
+     H3
+     =============================================================== */
+
+  .typo-h3-bold {
+    font-family: var(--font-dm-sans);
+    font-size: var(--typo-h3-size);
+    line-height: var(--typo-h3-line-height);
+    font-weight: 700;
+  }
+
+
+  /* ===============================================================
+     H4
+     =============================================================== */
+
+  .typo-h4-bold {
+    font-family: var(--font-dm-sans);
+    font-size: var(--typo-h4-size);
+    line-height: var(--typo-h4-line-height);
+    font-weight: 700;
+  }
+
+  .typo-h4-medium {
+    font-family: var(--font-dm-sans);
+    font-size: var(--typo-h4-size);
+    line-height: var(--typo-h4-line-height);
+    font-weight: 500;
+  }
+
+
+  /* ===============================================================
+     H5
+     =============================================================== */
+
+  .typo-h5-bold {
+    font-family: var(--font-dm-sans);
+    font-size: var(--typo-h5-size);
+    line-height: var(--typo-h5-line-height);
+    font-weight: 700;
+  }
+
+  .typo-h5-medium {
+    font-family: var(--font-dm-sans);
+    font-size: var(--typo-h5-size);
+    line-height: var(--typo-h5-line-height);
+    font-weight: 500;
+  }
+
+
+  /* ===============================================================
+     H6
+     =============================================================== */
+
+  .typo-h6-bold {
+    font-family: var(--font-dm-sans);
+    font-size: var(--typo-h6-size);
+    line-height: var(--typo-h6-line-height);
+    font-weight: 700;
+  }
+
+
+  /* ===============================================================
+     BODY — XS
+     =============================================================== */
+
+  .typo-xs-regular {
+    font-family: var(--font-inter);
+    font-size: var(--text-xs);
+    line-height: var(--text-xs--line-height);
+    font-weight: 400;
+  }
+
+
+  /* ===============================================================
+     BODY — SM
+     =============================================================== */
+
+  .typo-sm-regular {
+    font-family: var(--font-inter);
+    font-size: var(--text-sm);
+    line-height: var(--text-sm--line-height);
+    font-weight: 400;
+  }
+
+
+  /* ===============================================================
+     BODY — BASE
+     =============================================================== */
+
+  .typo-base-regular {
+    font-family: var(--font-inter);
+    font-size: var(--text-base);
+    line-height: var(--text-base--line-height);
+    font-weight: 400;
+  }
+
+  .typo-base-medium {
+    font-family: var(--font-inter);
+    font-size: var(--text-base);
+    line-height: var(--text-base--line-height);
+    font-weight: 500;
+  }
+
+  .typo-base-semibold {
+    font-family: var(--font-inter);
+    font-size: var(--text-base);
+    line-height: var(--text-base--line-height);
+    font-weight: 600;
+  }
+
+
+  /* ===============================================================
+     BODY — MD
+     =============================================================== */
+
+  .typo-md-regular {
+    font-family: var(--font-inter);
+    font-size: var(--text-md);
+    line-height: var(--text-md--line-height);
+    font-weight: 400;
+  }
+
+  .typo-md-medium {
+    font-family: var(--font-inter);
+    font-size: var(--text-md);
+    line-height: var(--text-md--line-height);
+    font-weight: 500;
+  }
+
+  .typo-md-semibold {
+    font-family: var(--font-inter);
+    font-size: var(--text-md);
+    line-height: var(--text-md--line-height);
+    font-weight: 600;
+  }
+
+  .typo-md-bold {
+    font-family: var(--font-inter);
+    font-size: var(--text-md);
+    line-height: 156%;
+    font-weight: 700;
+  }
+
+
+  /* ===============================================================
+     BODY — LG
+     =============================================================== */
+
+  .typo-lg-regular {
+    font-family: var(--font-inter);
+    font-size: var(--text-lg);
+    line-height: var(--text-lg--line-height);
+    font-weight: 400;
+  }
+
+  .typo-lg-medium {
+    font-family: var(--font-inter);
+    font-size: var(--text-lg);
+    line-height: var(--text-lg--line-height);
+    font-weight: 500;
+  }
+
+  .typo-lg-semibold {
+    font-family: var(--font-inter);
+    font-size: var(--text-lg);
+    line-height: var(--text-lg--line-height);
+    font-weight: 600;
+  }
+
+
+  /* ===============================================================
+     BUTTON — SMALL
+     =============================================================== */
+
+  .typo-button-sm-medium {
+    font-family: var(--font-dm-sans);
+    font-size: var(--text-button-sm);
+    line-height: var(--text-button-sm--line-height);
+    font-weight: 500;
+  }
+
+  .typo-button-sm-bold {
+    font-family: var(--font-dm-sans);
+    font-size: var(--text-button-sm);
+    line-height: var(--text-button-sm--line-height);
+    font-weight: 700;
+  }
+
+
+  /* ===============================================================
+     BUTTON — BASE
+     =============================================================== */
+
+  .typo-button-base-medium {
+    font-family: var(--font-dm-sans);
+    font-size: var(--text-button-base);
+    line-height: var(--text-button-base--line-height);
+    font-weight: 500;
+  }
+
+  .typo-button-base-bold {
+    font-family: var(--font-dm-sans);
+    font-size: var(--text-button-base);
+    line-height: var(--text-button-base--line-height);
+    font-weight: 700;
+  }
+
+
+  /* ===============================================================
+     BUTTON — LARGE
+     =============================================================== */
+
+  .typo-button-lg-medium {
+    font-family: var(--font-dm-sans);
+    font-size: var(--text-button-lg);
+    line-height: var(--text-button-lg--line-height);
+    font-weight: 500;
+  }
+
+
+  /* ===============================================================
+     UPPERCASE
+     =============================================================== */
+
+  .typo-uppercase-medium {
+    font-family: var(--font-dm-sans);
+    font-size: var(--text-uppercase);
+    line-height: var(--text-uppercase--line-height);
+    font-weight: 500;
+    text-transform: uppercase;
+  }
+}
+
+/* =================================================================
+OPTIONAL UTILITY
+================================================================= */
+
+@layer utilities {
+  .font-dm-sans {
+    font-family: var(--font-dm-sans);
+  }
+
+  .font-inter {
+    font-family: var(--font-inter);
   }
 }
