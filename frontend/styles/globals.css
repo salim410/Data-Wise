@@ -47,8 +47,127 @@
   --color-BC-N800-dark : #A2A89E;
   --color-BC-N900-light : #282B27;
   --color-BC-N900-dark : #A2A89E;
-  --color-BC-N1000-light : #141513 ;
+  --color-BC-N1000-light : #141513;
   --color-BC-N1000-dark : #E0E3DD;
+
+  /* custom color Neutral Alpha */
+  --color-BC-NA02-light : #FFFFFF05;
+  --color-BC-NA02-dark : #1A203405;
+  --color-BC-NA05-light : #FFFFFF0D;
+  --color-BC-NA05-dark : #1A20340D;
+  --color-BC-NA10-light : #FFFFFF1A;
+  --color-BC-NA10-dark : #1A20341A;
+  --color-BC-NA20-light : #FFFFFF33;
+  --color-BC-NA20-dark : #1A203433;
+  --color-BC-NA30-light : #FFFFFF4D;
+  --color-BC-NA30-dark : #1A20344D;
+  --color-BC-NA40-light : #FFFFFF66;
+  --color-BC-NA40-dark : #1A203466;
+  --color-BC-NA50-light : #FFFFFF80;
+  --color-BC-NA50-dark : #1A203480;
+  --color-BC-NA60-light : #FFFFFF99;
+  --color-BC-NA60-dark : #1A203499;
+  --color-BC-NA70-light : #FFFFFFB3;
+  --color-BC-NA70-dark : #1A2034B3;
+  --color-BC-NA80-light : #FFFFFFCC;
+  --color-BC-NA80-dark : #1A2034CC;
+  --color-BC-NA90-light : #FFFFFFE6;
+  --color-BC-NA90-dark : #1A2034E6;
+
+  /* custom color Neutral Alpha Invert */
+  --color-BC-NI02-light : #1B271705;
+  --color-BC-NI02-dark : #C4F5B305;
+  --color-BC-NI05-light : #1B27170D;
+  --color-BC-NI05-dark : #C4F5B30D;
+  --color-BC-NI10-light : #1B27171A;
+  --color-BC-NI10-dark : #C4F5B31A;
+  --color-BC-NI20-light : #1B271733;
+  --color-BC-NI20-dark : #C4F5B333;
+  --color-BC-NI30-light : #1B27174D;
+  --color-BC-NI30-dark : #C4F5B34D;
+  --color-BC-NI40-light : #1B271766;
+  --color-BC-NI40-dark : #C4F5B366;
+  --color-BC-NI50-light : #1B271780;
+  --color-BC-NI50-dark : #C4F5B380;
+  --color-BC-NI60-light : #1B271799;
+  --color-BC-NI60-dark : #C4F5B399;
+  --color-BC-NI70-light : #1B2717B3;
+  --color-BC-NI70-dark : #C4F5B3B3;
+  --color-BC-NI80-light : #1B2717CC;
+  --color-BC-NI80-dark : #C4F5B3CC;
+  --color-BC-NI90-light : #1B2717E6;
+  --color-BC-NI90-dark : #C4F5B3E6;
+
+  /* custom color Primary */
+  --color-BC-PR-Hero-light : #3A7326;
+  --color-BC-PR-Hero-dark : #2E5C1E;
+  --color-BC-PR100-light : #E9F6E4;
+  --color-BC-PR100-dark : #060C04;
+  --color-BC-PR200-light : #D3EDC9;
+  --color-BC-PR200-dark : #0C1708;
+  --color-BC-PR300-light : #A6DC94;
+  --color-BC-PR300-dark : #0C1708;
+  --color-BC-PR400-light : #7ACA5E;
+  --color-BC-PR400-dark : #234517;
+  --color-BC-PR500-light : #55A938;
+  --color-BC-PR500-dark : #2E5C1E;
+  --color-BC-PR600-light : #3A7326;
+  --color-BC-PR600-dark : #3A7326;
+  --color-BC-PR700-light : #2E5C1E;
+  --color-BC-PR700-dark : #55A938;
+  --color-BC-PR800-light : #234517;
+  --color-BC-PR800-dark : #7ACA5E;
+  --color-BC-PR900-light : #172E0F;
+  --color-BC-PR900-dark : #A6DC94;
+  --color-BC-PR1000-dark : #D3EDC9;
+  --color-BC-PR1000-light : #0C1708;
+
+  /* custom color Primary Alpha */
+  --color-BC-PRA05-light : #3A73260D;
+  --color-BC-PRA05-dark : #6CB8510D;
+  --color-BC-PRA10-light : #3A73261A;
+  --color-BC-PRA10-dark : #6CB8511A;
+  --color-BC-PRA20-light : #3A732633;
+  --color-BC-PRA20-dark : #6CB85133;
+  --color-BC-PRA30-light : #3A73264D;
+  --color-BC-PRA30-dark : #6CB8514D;
+  --color-BC-PRA40-light : #3A732666;
+  --color-BC-PRA40-dark : #6CB85166;
+  --color-BC-PRA50-light : #3A732680;
+  --color-BC-PRA50-dark : #6CB85180;
+  --color-BC-PRA60-light : #3A732699;
+  --color-BC-PRA60-dark : #6CB85199;
+  --color-BC-PRA70-light : #3A7326B3;
+  --color-BC-PRA70-dark : #6CB851B3;
+  --color-BC-PRA80-light : #3A7326CC;
+  --color-BC-PRA80-dark : #6CB851CC;
+  --color-BC-PRA90-light : #3A7326E6;
+  --color-BC-PRA90-dark : #6CB851E6;
+
+  /* custom color Red */
+  --color-BC-RE100-light: #FEEBEB;
+  --color-BC-RE100-dark: #190606;
+  --color-BC-RE200-light: #FDD7D7;
+  --color-BC-RE200-dark: #310B0B;
+  --color-BC-RE300-light: #FBAFAF;
+  --color-BC-RE300-dark: #621616;
+  --color-BC-RE400-light: #F98888;
+  --color-BC-RE400-dark: #932222;
+  --color-BC-RE500-light: #F76060;
+  --color-BC-RE500-dark: #C42D2D;
+  --color-BC-RE600-light: #EE3737;
+  --color-BC-RE600-dark: #F61414;
+  --color-BC-RE700-light: #C42D2D;
+  --color-BC-RE700-dark: #F76060;
+  --color-BC-RE800-light: #932222;
+  --color-BC-RE800-dark: #F98888;
+  --color-BC-RE900-light: #621616;
+  --color-BC-RE900-dark: #FBAFAF;
+  --color-BC-RE1000-light: #420F0F;
+  --color-BC-RE1000-dark: #FCCACA;
+  /* custom color DO 05*/
+  --color-DO05 : #FFFFFF0D;
+
   /* custom font weight */
   --font-weight-thin: 100;
   --font-weight-extra_light: 200;
