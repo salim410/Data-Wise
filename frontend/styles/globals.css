@@ -179,11 +179,125 @@
   --font-weight-extra_bold: 800;
   --font-weight-black: 900;
 
-  --font-sans: var(--font-dm-sans), ui-sans-serif, system-ui, sans-serif;
+  /* custom FONT FAMILIES*/
+
+  --font-dm-sans: "DM Sans", ui-sans-serif, system-ui, sans-serif;
+  --font-inter: "Inter", ui-sans-serif, system-ui, sans-serif;
+
+  /* text for DISPLAY */
+
+  --text-display-1: 88px;
+  --text-display-1--line-height: 108%;
+  --text-display-1--font-weight: 700;
+  --text-display-1--font-family: var(--font-dm-sans);
+
+  --text-display-2: 61px;
+  --text-display-2--line-height: 112%;
+  --text-display-2--font-weight: 700;
+  --text-display-2--font-family: var(--font-dm-sans);
+
+
+  /* text for HEADINGS */
+
+  --text-h1: 48px;
+  --text-h1--line-height: 116%;
+  --text-h1--font-weight: 700;
+  --text-h1--font-family: var(--font-dm-sans);
+
+  --text-h2: 39px;
+  --text-h2--line-height: 116%;
+  --text-h2--font-weight: 700;
+  --text-h2--font-family: var(--font-dm-sans);
+
+  --text-h3: 31px;
+  --text-h3--line-height: 128%;
+  --text-h3--font-weight: 700;
+  --text-h3--font-family: var(--font-dm-sans);
+
+  --text-h4: 25px;
+  --text-h4--line-height: 120%;
+  --text-h4--font-weight: 700;
+  --text-h4--font-family: var(--font-dm-sans);
+
+  --text-h5: 20px;
+  --text-h5--line-height: 142%;
+  --text-h5--font-weight: 700;
+  --text-h5--font-family: var(--font-dm-sans);
+
+  --text-h6: 16px;
+  --text-h6--line-height: 120%;
+  --text-h6--font-weight: 700;
+  --text-h6--font-family: var(--font-dm-sans);
+
+  /* text for BODY */
+  --text-xs-body: 12px;
+  --text-xs-body--line-height: 140%;
+  --text-xs-body--font-weight: 400;
+  --text-xs-body--font-family: var(--font-inter);
+
+  --text-sm-body: 14px;
+  --text-sm-body--line-height: 140%;
+  --text-sm-body--font-weight: 400;
+  --text-sm-body--font-family: var(--font-inter);
+
+  --text-body: 16px;
+  --text-body--line-height: 160%;
+  --text-body--font-weight: 400;
+  --text-body--font-family: var(--font-inter);
+
+  --text-md-body: 20px;
+  --text-md-body--line-height: 158%;
+  --text-md-body--font-weight: 400;
+  --text-md-body--font-family: var(--font-inter);
+
+  --text-lg-body: 24px;
+  --text-lg-body--line-height: 160%;
+  --text-lg-body--font-weight: 400;
+  --text-lg-body--font-family: var(--font-inter);
+
+  /* text for BUTTONS */
+
+  --text-button-sm: 14px;
+  --text-button-sm--line-height: 126%;
+  --text-button-sm--font-family: var(--font-dm-sans);
+
+  --text-button-base: 16px;
+  --text-button-base--line-height: 122%;
+  --text-button-base--font-family: var(--font-dm-sans);
+
+  --text-button-lg: 20px;
+  --text-button-lg--line-height: 122%;
+  --text-button-lg--font-family: var(--font-dm-sans);
+
+
+  /* text UPPERCASE */
+
+
+  --text-uppercase: 16px;
+  --text-uppercase--line-height: 132%;
+  --text-uppercase--font-weight: 500;
+  --text-uppercase--font-family: var(--font-dm-sans);
 }
 
 @layer base {
-    html{
-      font-family: "DM Sans", sans-seri, serif
-    }
+  html {
+    font-family: var(--font-dm-sans);
+  }
+  body{
+    font-family: var(--font-dm-sans);
+    font-size: 16px;
+    line-height: 160%;
+  }
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-family: var(--font-dm-sans);
+  }
+
+  button {
+    font-family: var(--font-dm-sans);
+  }
 }
