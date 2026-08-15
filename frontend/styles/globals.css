@@ -324,14 +324,13 @@ BASE
 
 @layer base {
   html {
-    font-family: var(--font-dm-sans);
+    font-family: var(--font-inter), sans-serif;
     scroll-behavior: smooth;
   }
 
   body {
     margin: 0;
-
-    font-family: var(--font-inter);
+    font-family: var(--font-dm-sans), sans-serif;
     font-size: 16px;
     line-height: 160%;
 
@@ -356,7 +355,7 @@ BASE
     margin: 0;
     padding: 0;
 
-    font-family: var(--font-dm-sans);
+    font-family: var(--font-dm-sans), sans-serif;
   }
 
   p {
@@ -393,14 +392,14 @@ TYPOGRAPHY COMPONENTS
      =============================================================== */
 
   .typo-display-1-bold {
-    font-family: var(--font-dm-sans);
+    font-family: var(--font-dm-sans), sans-serif;
     font-size: var(--typo-display-1-size);
     line-height: var(--typo-display-1-line-height);
     font-weight: 700;
   }
 
   .typo-display-2-bold {
-    font-family: var(--font-dm-sans);
+    font-family: var(--font-dm-sans), sans-serif;
     font-size: var(--typo-display-2-size);
     line-height: var(--typo-display-2-line-height);
     font-weight: 700;
@@ -412,7 +411,7 @@ TYPOGRAPHY COMPONENTS
      =============================================================== */
 
   .typo-h1-bold {
-    font-family: var(--font-dm-sans);
+    font-family: var(--font-dm-sans), sans-serif;
     font-size: var(--typo-h1-size);
     line-height: var(--typo-h1-line-height);
     font-weight: 700;
@@ -424,14 +423,14 @@ TYPOGRAPHY COMPONENTS
      =============================================================== */
 
   .typo-h2-bold {
-    font-family: var(--font-dm-sans);
+    font-family: var(--font-dm-sans), sans-serif;
     font-size: var(--typo-h2-size);
     line-height: var(--typo-h2-line-height);
     font-weight: 700;
   }
 
   .typo-h2-medium {
-    font-family: var(--font-dm-sans);
+    font-family: var(--font-dm-sans), sans-serif;
     font-size: var(--typo-h2-size);
     line-height: var(--typo-h2-line-height);
     font-weight: 500;
@@ -443,7 +442,7 @@ TYPOGRAPHY COMPONENTS
      =============================================================== */
 
   .typo-h3-bold {
-    font-family: var(--font-dm-sans);
+    font-family: var(--font-dm-sans), sans-serif;
     font-size: var(--typo-h3-size);
     line-height: var(--typo-h3-line-height);
     font-weight: 700;
@@ -455,14 +454,14 @@ TYPOGRAPHY COMPONENTS
      =============================================================== */
 
   .typo-h4-bold {
-    font-family: var(--font-dm-sans);
+    font-family: var(--font-dm-sans), sans-serif;
     font-size: var(--typo-h4-size);
     line-height: var(--typo-h4-line-height);
     font-weight: 700;
   }
 
   .typo-h4-medium {
-    font-family: var(--font-dm-sans);
+    font-family: var(--font-dm-sans), sans-serif;
     font-size: var(--typo-h4-size);
     line-height: var(--typo-h4-line-height);
     font-weight: 500;
@@ -474,14 +473,14 @@ TYPOGRAPHY COMPONENTS
      =============================================================== */
 
   .typo-h5-bold {
-    font-family: var(--font-dm-sans);
+    font-family: var(--font-dm-sans), sans-serif;
     font-size: var(--typo-h5-size);
     line-height: var(--typo-h5-line-height);
     font-weight: 700;
   }
 
   .typo-h5-medium {
-    font-family: var(--font-dm-sans);
+    font-family: var(--font-dm-sans), sans-serif;
     font-size: var(--typo-h5-size);
     line-height: var(--typo-h5-line-height);
     font-weight: 500;
@@ -493,7 +492,7 @@ TYPOGRAPHY COMPONENTS
      =============================================================== */
 
   .typo-h6-bold {
-    font-family: var(--font-dm-sans);
+    font-family: var(--font-dm-sans), sans-serif;
     font-size: var(--typo-h6-size);
     line-height: var(--typo-h6-line-height);
     font-weight: 700;
@@ -505,7 +504,7 @@ TYPOGRAPHY COMPONENTS
      =============================================================== */
 
   .typo-xs-regular {
-    font-family: var(--font-inter);
+    font-family: var(--font-inter), sans-serif;
     font-size: var(--text-xs);
     line-height: var(--text-xs--line-height);
     font-weight: 400;
@@ -517,7 +516,7 @@ TYPOGRAPHY COMPONENTS
      =============================================================== */
 
   .typo-sm-regular {
-    font-family: var(--font-inter);
+    font-family: var(--font-inter), sans-serif;
     font-size: var(--text-sm);
     line-height: var(--text-sm--line-height);
     font-weight: 400;
@@ -529,21 +528,21 @@ TYPOGRAPHY COMPONENTS
      =============================================================== */
 
   .typo-base-regular {
-    font-family: var(--font-inter);
+    font-family: var(--font-inter), sans-serif;
     font-size: var(--text-base);
     line-height: var(--text-base--line-height);
     font-weight: 400;
   }
 
   .typo-base-medium {
-    font-family: var(--font-inter);
+    font-family: var(--font-inter), sans-serif;
     font-size: var(--text-base);
     line-height: var(--text-base--line-height);
     font-weight: 500;
   }
 
   .typo-base-semibold {
-    font-family: var(--font-inter);
+    font-family: var(--font-inter), sans-serif;
     font-size: var(--text-base);
     line-height: var(--text-base--line-height);
     font-weight: 600;
@@ -555,28 +554,28 @@ TYPOGRAPHY COMPONENTS
      =============================================================== */
 
   .typo-md-regular {
-    font-family: var(--font-inter);
+    font-family: var(--font-inter), sans-serif;
     font-size: var(--text-md);
     line-height: var(--text-md--line-height);
     font-weight: 400;
   }
 
   .typo-md-medium {
-    font-family: var(--font-inter);
+    font-family: var(--font-inter), sans-serif;
     font-size: var(--text-md);
     line-height: var(--text-md--line-height);
     font-weight: 500;
   }
 
   .typo-md-semibold {
-    font-family: var(--font-inter);
+    font-family: var(--font-inter), sans-serif;
     font-size: var(--text-md);
     line-height: var(--text-md--line-height);
     font-weight: 600;
   }
 
   .typo-md-bold {
-    font-family: var(--font-inter);
+    font-family: var(--font-inter), sans-serif;
     font-size: var(--text-md);
     line-height: 156%;
     font-weight: 700;
@@ -588,21 +587,21 @@ TYPOGRAPHY COMPONENTS
      =============================================================== */
 
   .typo-lg-regular {
-    font-family: var(--font-inter);
+    font-family: var(--font-inter), sans-serif;
     font-size: var(--text-lg);
     line-height: var(--text-lg--line-height);
     font-weight: 400;
   }
 
   .typo-lg-medium {
-    font-family: var(--font-inter);
+    font-family: var(--font-inter), sans-serif;
     font-size: var(--text-lg);
     line-height: var(--text-lg--line-height);
     font-weight: 500;
   }
 
   .typo-lg-semibold {
-    font-family: var(--font-inter);
+    font-family: var(--font-inter), sans-serif;
     font-size: var(--text-lg);
     line-height: var(--text-lg--line-height);
     font-weight: 600;
@@ -614,14 +613,14 @@ TYPOGRAPHY COMPONENTS
      =============================================================== */
 
   .typo-button-sm-medium {
-    font-family: var(--font-dm-sans);
+    font-family: var(--font-dm-sans), sans-serif;
     font-size: var(--text-button-sm);
     line-height: var(--text-button-sm--line-height);
     font-weight: 500;
   }
 
   .typo-button-sm-bold {
-    font-family: var(--font-dm-sans);
+    font-family: var(--font-dm-sans), sans-serif;
     font-size: var(--text-button-sm);
     line-height: var(--text-button-sm--line-height);
     font-weight: 700;
@@ -633,14 +632,14 @@ TYPOGRAPHY COMPONENTS
      =============================================================== */
 
   .typo-button-base-medium {
-    font-family: var(--font-dm-sans);
+    font-family: var(--font-dm-sans), sans-serif;
     font-size: var(--text-button-base);
     line-height: var(--text-button-base--line-height);
     font-weight: 500;
   }
 
   .typo-button-base-bold {
-    font-family: var(--font-dm-sans);
+    font-family: var(--font-dm-sans), sans-serif;
     font-size: var(--text-button-base);
     line-height: var(--text-button-base--line-height);
     font-weight: 700;
@@ -652,7 +651,7 @@ TYPOGRAPHY COMPONENTS
      =============================================================== */
 
   .typo-button-lg-medium {
-    font-family: var(--font-dm-sans);
+    font-family: var(--font-dm-sans), sans-serif;
     font-size: var(--text-button-lg);
     line-height: var(--text-button-lg--line-height);
     font-weight: 500;
@@ -664,7 +663,7 @@ TYPOGRAPHY COMPONENTS
      =============================================================== */
 
   .typo-uppercase-medium {
-    font-family: var(--font-dm-sans);
+    font-family: var(--font-dm-sans), sans-serif;
     font-size: var(--text-uppercase);
     line-height: var(--text-uppercase--line-height);
     font-weight: 500;
@@ -678,10 +677,10 @@ OPTIONAL UTILITY
 
 @layer utilities {
   .font-dm-sans {
-    font-family: var(--font-dm-sans);
+    font-family: var(--font-dm-sans), sans-serif;
   }
 
   .font-inter {
-    font-family: var(--font-inter);
+    font-family: var(--font-inter), sans-serif;
   }
 }

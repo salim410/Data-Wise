@@ -1,5 +1,5 @@
 import { DM_Sans, Inter } from "next/font/google";
-import "./globals.css";
+import "@/styles/globals.css";
 
 const dmSans = DM_Sans({
   variable: "--font-family-dm-sans",
@@ -13,12 +13,12 @@ const inter = Inter({
 
 export default function RootLayout({
   children,
-}: Readonly<{
+}: {
   children: React.ReactNode;
-}>) {
+}) {
   return (
-    <html lang="en">
-      <body className={`${dmSans.variable} ${inter.variable}`}>
+    <html lang="en" className={dmSans.variable}>
+      <body className={`${inter.variable}`}>
         {children}
       </body>
     </html>

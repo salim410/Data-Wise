@@ -6,11 +6,24 @@ services:
     ports:
       - "3003:3003"
 
+    volumes:
+      - ./frontend:/app
+      - /app/node_modules
+      - /app/.next
+    environment:
+      WATCHPACK_POLLING : "true"
+
+
   backend:
     build: ./backend
     container_name: backend
     ports:
       - "8003:8003"
+    volumes:
+      - ./backend:/app
+    environment:
+      PYTHONDONTWRITEBYTECODE: "1"
+      PYTHONUNBUFFERED: "1"
 
   postgres:
     image: postgres:17
