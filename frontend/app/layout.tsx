@@ -1,5 +1,6 @@
 import { DM_Sans, Inter } from "next/font/google";
 import "@/styles/globals.css";
+import Header from "@/component/header/Header";
 
 const dmSans = DM_Sans({
   variable: "--font-family-dm-sans",
@@ -19,6 +20,7 @@ export default function RootLayout({
   return (
     <html lang="en" className={dmSans.variable}>
       <body className={`${inter.variable}`}>
+        <Header/>
         {children}
       </body>
     </html>
